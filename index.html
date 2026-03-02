@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OP_NET Vibe Log</title>
+    <style>
+        body { font-family: monospace; background-color: #1a1a1a; color: #ff9900; text-align: center; padding: 50px; }
+        input, button { margin: 10px; padding: 10px; border-radius: 5px; border: none; }
+        button { background-color: #ff9900; color: #1a1a1a; cursor: pointer; font-weight: bold; }
+        button:hover { background-color: #e68a00; }
+        .box { border: 1px solid #ff9900; padding: 20px; display: inline-block; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <h1>🧡 OP_NET Vibe Log</h1>
+    <div class="box">
+        <h3>Current Vibe on Bitcoin L1:</h3>
+        <p id="displayVibe">"Hello OP_NET! The network is alive."</p>
+        <hr style="border-color: #ff9900;">
+        <input type="text" id="newVibe" placeholder="Enter your vibe..." maxlength="50">
+        <button onclick="alert('Wallet connection required for OP_NET testnet!')">Update Vibe</button>
+    </div>
+</body>
+</html>
